@@ -3,12 +3,10 @@
 
 
 Vertex::Vertex(std::string value) : m_value{ value } {
-}
-
-void Vertex::initialize(std::string value) {
 	m_value = value;
 	m_adj;
 }
+
 
 void Vertex::add_adj_vertex(Vertex vertex1, Vertex vertex2) {
 	if (std::find(m_adj.begin(), m_adj.end(), vertex2.getValue()) != m_adj.end()) {

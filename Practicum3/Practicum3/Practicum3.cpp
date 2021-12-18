@@ -23,8 +23,8 @@ void readFile() {
 	//adj_vertices.push_back("b");
 	//adj_vertices.push_back("d");
 	//adj_vertices.push_back("f");
-	Vertex vertex1{ Vertex("lol")};
-	vertex1.initialize("lol");
+	Vertex vertex1{ Vertex("test")};
+	
 
 	for (int i = 0; i < 8; i++) {
 		Vertex vertex{Vertex(products[i])};
